@@ -1,2 +1,2 @@
-# stock-catalog
-This application will store all followed stocks
+# symbol-service
+This application will store all followed symbols.
