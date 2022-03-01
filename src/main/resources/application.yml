@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: symbolService
+netty:
+  default:
+    allocator:
+      max-order: 3
