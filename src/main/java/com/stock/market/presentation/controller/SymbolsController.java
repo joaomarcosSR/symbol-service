@@ -14,6 +14,7 @@ public class SymbolsController {
 
     @Get
     public List<Symbol> getAll() {
+        // https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=PETR&apikey=IG38WIHOGQ07E0CL
         return Collections.singletonList(new Symbol(UUID.randomUUID(), "PETR3.SAO", Currency.BRL, "Petróleo Brasileiro S.A. - Petrobras"));
     }
 }
