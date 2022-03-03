@@ -9,7 +9,7 @@ FROM gradle:7.3.1-jdk17-alpine as builder
 COPY --from=cache /home/gradle/cache_home /home/gradle/.gradle
 COPY . /usr/src/java-code/
 WORKDIR /usr/src/java-code
-RUN gradle assemble -i --stacktrace
+RUN gradle build -i --stacktrace
 
 FROM openjdk:17-oracle
 EXPOSE 8080

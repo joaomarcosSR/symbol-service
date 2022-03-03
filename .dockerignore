@@ -16,6 +16,8 @@ gradle
 gradlew
 gradlew.bat
 README.md
-src/test/
 docker/
 LICENSE
+.git
+.gitignore
+!build/libs
